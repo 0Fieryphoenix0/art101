@@ -4,6 +4,17 @@
 .minor-section {
     padding: 10px;
     margin-bottom: 10px;
-    border: solid 1px #888;
-    background-color: #DDD8C4;
+    border: double 5px #2a0808;
+    background-color: #ecd26a;
   }
+#screenshot {
+  width: 500px;
+}
+#content h1 {
+  color: #ffffff;
+  text-decoration:overline underline dotted #2a0808;
+}
+
+#content h2 {
+  color: #2a0808;
+}
