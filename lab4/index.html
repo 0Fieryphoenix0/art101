@@ -1,47 +1,87 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 	<!-- This title is used for tabs and bookmarks -->
 	<title>Lab X - Subject/Topic</title>
 
 	<!-- Use UTF character set, a good idea with any webpage -->
-  	<meta charset="UTF-8" />
+	<meta charset="UTF-8" />
 	<!-- Set viewport so page remains consistently scaled w narrow devices -->
-  	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
 	<!-- Include a sitewide CSS file for consistent styling across the site -->
 	<link rel="stylesheet" type="text/css" href="../css/site.css">
 	<!-- Lab-specifc CSS file for any special styling of this particular page -->
 	<link rel="stylesheet" type="text/css" href="css/lab.css">
-	
+
 	<!-- load jQuery library to make javascript easier (must be above our lab js)-->
 	<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
 	<!-- Link to javascript file - DEFER waits until all elements are rendered -->
 	<script type="text/javascript" src="./js/lab.js" DEFER></script>
 </head>
+
 <body>
 	<!-- Style this page by changing the CSS in ../css/site.css or css/lab.css -->
 	<main id="content">
 		<section>
-			<h1>Lab X - Subject/Topic</h1>
+			<h1>Lab 4 - Pseudocoding and Problem-solving</h1>
+
 			<div class="minor-section">
-					<h2>Challenge</h2>
-					<p>Restate the challenge of the lab here.</p>
+				<h2>Challenge</h2>
+				<p>The subject of this lab is to learn how to develop pseudocode for tasks. We tried to create
+					pseudocode for a rock paper scissors game.</p>
 			</div>
 
 			<div class="minor-section">
-					<h2>Problems</h2>
-					<p>What problems arose? How did you solve them? </p>
+				<h2>Difficulties Encountered</h2>
+				<p>An dificulty for me is completing the assignment on time. I am currently preping for midterms and
+					doing other works, and keeping track of things are problematic. Other than that, there is no
+					real issues.
+				</p>
 			</div>
 
 			<div class="minor-section">
-					<h2>Reflection</h2>
-					<p>Put your reflections about this assignment here. How did it go? What kind of energy did you put into the assignment? </p>
-			</div>
-
-			<div class="minor-section">
-					<h2>Results</h2>
-					<div id="output"></div>
+				<h2>Results</h2>
+				<p>This is the pseudocode for replacing a SIM card from a smartphone, placed in a
+					&lt;pre&gt;&lt;code&gt; code block.</p>
+				<div class="minor-section">
+					<pre><code>
+	Remove any protective cases your phone may have, if any.
+	Obtain a specialized tool for SIM card removal; 
+		a small paper clip will suffice as well, but if this option is chosen, 
+		the person doing the removal needs to unbend the paper clip and straighten the point long enough to fit into the hole.
+	Place the tip of the paper clip or tool into the hole and press with not too much force, but just enough to apply some amount of pressure.
+	If done correctly, the SIM card slot will dislodge out of its slot, enabling access to the SIM card.
+	Replace the SIM card with the new one of your choice.
+	When replacement is complete, slide the slot back into place and the latch will engage again, rendering the SIM card operational for use.
+							</pre></code>
+				</div>
+				<p>This is the pseudocode for RPS (rock paper scissors), placed in a &lt;pre&gt;&lt;code&gt; code
+					block.</p>
+				<div class="minor-section">
+					<pre><code>
+	Ask the user for input confirming their selection
+	When a valid input is received, the computer randomly chooses one of the three options of RPS
+	The computer displays which outputs have been chosen by both participants and then declares the result of the game based on what inputs have been provided.
+		If both inputs are the same, the game declares a tie.
+		Else, the computer displays which person has won based on whose input beats the other’s input.
+	After completion of the above steps, the game asks the user if they wish to play once more.
+							</pre></code>
+				</div>
+				<p>This is the pseudocode for RPS (rock paper scissors), commented as if it were in a JavaScript
+					file.</p>
+				<div class="minor-section">
+					<pre><code>
+	// Pseudocode for RPS (Rock Paper Scissors)
+	// Ask the user for input confirming their selection
+	// When a valid input is received, the computer randomly chooses one of the three options of RPS
+	// The computer displays which outputs have been chosen by both participants and then declares the result of the game based on what inputs have been provided.
+	  // If both inputs are the same, the game declares a tie.
+	  // Else, the computer displays which person has won based on whose input beats the other’s input.
+	// After completion of the above steps, the game asks the user if they wish to play once more.
+							</pre></code>
+				</div>
 			</div>
 		</section>
 		<nav id="links">
@@ -49,4 +89,5 @@
 		</nav>
 	</main>
 </body>
+
 </html>
